@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title></title>
+  	<link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+  	<div class="contenedor">
+      <div class="contenedor_interior bg_indice">
+        <div class="header"><img src="images/logo_poise.png" alt=""></div>
+        <div class="cont_indice">
+          <div class="accordionButton closed indice1"><h2>Fundamentales</h2></div>
+          <div class="accordionContent links_fundamentales">
+            <h4><a href="">Estrategia de Marca</a></h4>
+            <ul>
+              <li><a href="">Perfil de Marca</a></li>
+              <li><a href="">Posicionamiento local de la marca</a></li>
+              <li><a href="">Historia de la marca</a></li>
+              <li><a href="">Perfil de la tarea</a></li>
+              <li><a href="">Desafío de Marketing</a></li>
+              <li><a href="">Directrices del Equity Visual</a></li>
+              <li><a href="">Estrategia de distribución</a></li>
+              <li><a href="">Estrategia de precios</a></li>
+              <li><a href="">Estrategia digital</a></li>
+            </ul>
+          </div>
+          <div class="accordionButton closed indice2"><h2>Proceso</h2></div>
+          <div class="accordionContent links_proceso">
+            <h4><a href="">Contexto</a></h4>
+            <ul>
+              <li><a href="">Objetivos del Programa Comercial</a></li>
+              <li><a href="">Noticia de Productos 2014</a></li>
+              <li><a href="">Calendario Poise del CP</a></li>
+              <li><a href="">CPI 2014</a></li>
+              <li><a href="">Mecanismo de involucramiento</a></li>
+              <li><a href="">Pathway</a></li>
+              <li><a href="">Ecosistema de Medios LAO</a></li>
+              <li><a href="">Ideas de Ejección creativa</a></li>
+            </ul>
+          </div>
+          <div class="accordionButton closed indice3"><h2>Ejecución</h2></div>
+          <div class="accordionContent links_ejecucion">
+            <h4><a href="">Paquete de activación</a></h4>
+            <ul>
+              <li><a href="">Gráficos</a></li>
+              <li><a href="">Materiales de punto de venta</a></li>
+              <li><a href="">Recomendaciones de especialistas</a></li>
+              <li><a href="">Muestreo</a></li>
+              <li><a href="">Digital</a></li>
+            </ul>
+            <h4><a href="">Excelencia en ejecución</a></h4>
+            <ul>
+              <li><a href="">Guía de inversión en medios</a></li>
+              <li><a href="">Guía de materiales de activación</a></li>
+            </ul>
+          </div>
+          <div class="accordionButton closed indice4"><h2>Post Lanzamiento</h2></div>
+          <div class="accordionContent">
+            <p>contenido 4</p>
+          </div>
+        </div> 
+        <div class="footer">
+          <ul class="nav_footer">
+            <li><a href="" class="btn_inicio"></a></li>
+            <li><a href="" class="btn_indice"></a></li>
+          </ul>
+        </div>
+      </div>
+  	</div>
+    <script type="text/javascript">
+      $('div.accordionButton').click(function() {
+        if ($(this).hasClass('closed')) {
+          $('div.accordionButton').addClass('closed');
+          $(this).removeClass('closed');
+          $('div.accordionContent').slideUp('normal');
+          $(this).next().slideDown('normal');
+        } else {
+          $(this).addClass('closed');
+          $(this).next().slideUp('normal');
+        }
+      });
+    </script>
+  </body>
+</html>
