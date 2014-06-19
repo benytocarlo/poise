@@ -1167,6 +1167,56 @@ p{
 	margin-bottom: 0;
 }
 
+.cont_trial{
+	height: 420px;
+	overflow: hidden;
+	padding-right: 40px;
+	position: relative;
+}
+
+.cont_trial h4{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.globo_canalvideo{
+	left: 100px;
+}
+
+.globo_webyblog{
+	left: 200px;
+	top: 80px;
+}
+
+.globo_sociales{
+	left: 60px;
+	top: 150px;
+}
+
+.globo_mailing{
+	right: 130px;
+    top: 150px;
+}
+
+.globo_google{
+	bottom: 55px;
+	left: 110px;
+}
+
+.globo_canalvideo{
+	bottom: 85px;
+	left: 280px;
+}
+
+.trial{
+	left: 190px;
+	top: 180px;
+}
+
+.cont_img_center{
+	text-align: center;
+}
+
 .rosado{
 	color: #E36498;
 }
