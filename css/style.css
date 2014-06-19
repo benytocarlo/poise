@@ -371,6 +371,7 @@ a{
 
 .deck-slide-scaler{
 	height: 670px;
+	overflow: hidden;
 	position: relative;
 }
 
@@ -1227,4 +1228,19 @@ p{
 
 .proceso .cont_left{
 	width: 570px;
+}
+
+.aloe{
+	left: 380px;
+	top: -78px;
+}
+
+.cont_cuidados{
+	margin-top: 50px;
+	position: relative;
+}
+
+.cont_cuidados li{
+	float: left;
+	margin: 0 20px;
 }
