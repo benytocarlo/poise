@@ -206,6 +206,10 @@ a{
 	margin-top: 100px;
 }
 
+.cont_indice h2{
+	font-size: 28px;
+}
+
 .accordionContent{
 	padding: 0 0 20px 60px;
 }
