@@ -1,10 +1,10 @@
 
 $(document).ready(function(){
 
-	$("h1, .cabecera h4").css({
+	/*$("h1, .cabecera h4").css({
 				"left" :  -500,
 				"position" : 'relative'
-				});
+				});*/
 
 	$(".cont_sues").css({
 		"overflow" : 'hidden'
@@ -57,7 +57,7 @@ $(document).ready(function(){
    		}, 700, function(){
    			$("h1", currentSlide).animate({left:0}, function(){
    				animateSlidedownAlpha();
-   				animateHeart();
+   				
    				animateFadeInOut();
    			})
    		})
@@ -72,6 +72,7 @@ $(document).ready(function(){
 			i = 0;
 			clearTimeout(ctrlTime);
 			animateScale();
+			animateProgressBar();
 			return false;
 		}
 		
@@ -108,6 +109,7 @@ $(document).ready(function(){
 		if (!$(".downAlpha", currentSlide).length) return false;
 		$(".downAlpha", currentSlide).animate({opacity:1, top:0}, 800);
 	}
+
 	var sw = 80;
 	function animateHeart(){
 		if (!$(".latido", currentSlide).length ) return false;
@@ -121,6 +123,19 @@ $(document).ready(function(){
 		 //$(".latido", currentSlide).effect( "scale", { percent: sw }, function(){ animateHeart(sw)} );						  
 		
 	}	
+
+	function animateProgressBar(){
+		if (!$(".barra", currentSlide).length) return false;
+		$('#bar-1', currentSlide).animate({width: 525}, 1500);
+		$('#bar-2', currentSlide).animate({width: 525}, 1500);
+		$('#bar-3', currentSlide).animate({width: 350}, 1500);
+		$('#bar-4', currentSlide).animate({width: 525}, 1500);
+		$('#bar-5', currentSlide).animate({width: 525}, 1500);
+		$('#bar-6', currentSlide).animate({width: 525}, 1500);
+		$('#bar-7', currentSlide).animate({width: 350}, 1500);
+		$('#bar-8', currentSlide).animate({width: 350}, 1500);
+		$('#bar-9', currentSlide).animate({width: 340}, 1500);
+	}
 
 })
 

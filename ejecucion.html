@@ -11,27 +11,32 @@
 
     <!--CSS-->
   	<link rel="stylesheet" href="css/style.css">
-    <!--link rel="stylesheet" media="screen" href="deck/core/deck.core.css">
+    <link rel="stylesheet" media="screen" href="deck/core/deck.core.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/goto/deck.goto.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/menu/deck.menu.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/navigation/deck.navigation.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/status/deck.status.css">
-    <link rel="stylesheet" media="screen" href="deck/extensions/scale/deck.scale.css"-->
+    <link rel="stylesheet" media="screen" href="deck/extensions/scale/deck.scale.css">
     <!-- Transition theme. More available in /themes/transition/ or create your own. -->
-    <!--link rel="stylesheet" media="screen" href="deck/themes/transition/horizontal-slide.css"-->
+    <link rel="stylesheet" media="screen" href="deck/themes/transition/horizontal-slide.css">
     <!-- Basic black and white print styles -->
-    <!--link rel="stylesheet" media="print" href="deck/core/print.css"-->
+    <link rel="stylesheet" media="print" href="deck/core/print.css">
 
     <!--JS-->
     <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
     <!-- Deck Core and extensions -->
-    <!--script src="deck/core/deck.core.js"></script>
+    <script src="deck/core/deck.core.js"></script>
     <script src="deck/extensions/menu/deck.menu.js"></script>
     <script src="deck/extensions/goto/deck.goto.js"></script>
     <script src="deck/extensions/status/deck.status.js"></script>
     <script src="deck/extensions/navigation/deck.navigation.js"></script>
-    <script src="deck/extensions/scale/deck.scale.js"></script-->
+    <script src="deck/extensions/scale/deck.scale.js"></script>
+    <script src="js/script.js"></script>
+    <style type="text/css" media="screen">
+      .fade, .scale{ display: none;}
+    </style>
   </head>
 
   <body>
@@ -45,13 +50,13 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_titulo">
-            <h2 class="celeste">TVC Testimoniales</h2>
+            <h2 class="celeste fade">TVC Testimoniales</h2>
           </div>
           <ul class="cont_testimoniales">
-            <li><img src="images/img_test1.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
-            <li><img src="images/img_test2.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
-            <li><img src="images/img_test3.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
-            <li><img src="images/img_test4.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
+            <li class="fade"><img src="images/img_test1.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
+            <li class="fade"><img src="images/img_test2.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
+            <li class="fade"><img src="images/img_test3.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
+            <li class="fade"><img src="images/img_test4.png" alt="" /><a href="" class="descarga celeste">descargar video</a></li>
           </ul>
         </div>
         <div class="footer">
@@ -70,10 +75,10 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_titulo">
-            <h2 class="celeste">Gráficos</h2>
+            <h2 class="celeste fade">Gráficos</h2>
           </div>
           <ul class="cont_testimoniales">
-            <li>
+            <li class="fade">
               <img src="images/grafico1.png" alt="" />
               <ul class="cont_img_graf">
                 <li>
@@ -92,7 +97,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="fade">
               <img src="images/grafico4.png" alt="" />
               <ul class="cont_img_graf">
                 <li>
@@ -111,7 +116,7 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="fade">
               <img src="images/grafico7.png" alt="" />
                 <ul class="des_print">
                   <li><img src="images/descarga.png" alt=""></li>
@@ -136,19 +141,19 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_materiales">
-            <h3 class="left celeste titulo_materiales">Materiales de punto de venta</h3>
+            <h3 class="left celeste titulo_materiales fade">Materiales de punto de venta</h3>
             <div class="cont_img_mat">
               <ul class="cont_testimoniales">
-                <li><img src="images/material1.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material2.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material3.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material4.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material1.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material2.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material3.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material4.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
               </ul>
               <ul class="cont_testimoniales">
-                <li><img src="images/material5.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material6.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material7.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
-                <li><img src="images/material8.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material5.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material6.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material7.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+                <li class="fade"><img src="images/material8.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
               </ul>
             </div>
           </div>
@@ -168,23 +173,23 @@
             <h4 class="rosado">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
-          <div class="titulo_center">
+          <div class="titulo_center fade">
             <img src="images/muestra1.png" alt="">
           </div>
-          <ul class="cont_muestreo cont_muestreo1">
+          <ul class="cont_muestreo cont_muestreo1 fade">
             <li><img src="images/muestra2.png" alt=""><a href="" class="descarga celeste">descargar</a></li>
             <li><img src="images/muestra3.png" alt=""><a href="" class="descarga celeste">descargar</a></li>
             <li><img src="images/muestra4.png" alt=""><a href="" class="descarga celeste">descargar</a></li>
           </ul>
           <ul class="cont_testimoniales cont_muestreo cont_muestreo2">
-            <li>
+            <li class="fade">
               <img src="images/muestra5.png" alt="" />
               <ul class="cont_img_graf">
                 <li><img src="images/muestra6.png" alt=""><a href="" class="descarga celeste">descargar</a></li>
                 <li><img src="images/muestra7.png" alt=""><a href="" class="descarga celeste">descargar</a></li>
               </ul>
             </li>
-            <li><img src="images/muestra8.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
+            <li class="fade"><img src="images/muestra8.png" alt="" /><a href="" class="descarga celeste">descargar</a></li>
           </ul>
         </div>
         <div class="footer">
@@ -203,14 +208,14 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_titulo">
-            <h2 class="celeste">Promociones</h2>
+            <h2 class="celeste fade">Promociones</h2>
           </div>
           <ul class="cont_testimoniales">
-            <li><img src="images/promo1.png" alt="" /></li>
-            <li><img src="images/promo2.png" alt="" /></li>
-            <li><img src="images/promo3.png" alt="" /></li>
-            <li><img src="images/promo4.png" alt="" /></li>
-            <li><img src="images/promo5.png" alt="" /></li>
+            <li class="fade"><img src="images/promo1.png" alt="" /></li>
+            <li class="fade"><img src="images/promo2.png" alt="" /></li>
+            <li class="fade"><img src="images/promo3.png" alt="" /></li>
+            <li class="fade"><img src="images/promo4.png" alt="" /></li>
+            <li class="fade"><img src="images/promo5.png" alt="" /></li>
           </ul>
         </div>
         <div class="footer">
@@ -223,18 +228,23 @@
 
       <div class="slide contenedor_interior bg_simple" id="Paquete-de-activacion6">
         <div class="header"><img src="images/logo_poise.png" alt=""></div>
-        <div class="cont_left">
+        <div class="">
           <div class="cabecera cabecera_mm">
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
           <div>
-            <h1 class="left celeste titulo_materiales">Digital</h1>
+            <h2 class="left celeste titulo_materiales fade">Digital</h2>
             <div>
-              <ul class="cont_testimoniales cont_digital">
-                <li><img src="images/digital1.png" alt="" /></li>
-                <li><img src="images/digital2.png" alt="" /></li>
-                <li><img src="images/digital3.png" alt="" /><img src="images/digital4.png" alt="" /></li>
+              <ul class="cont_testimoniales cont_digital fade">
+                <li class="fade"><img src="images/digital1.png" alt="" /></li>
+                <li class="fade"><img src="images/digital2.png" alt="" /></li>
+                <li>
+                  <ul>
+                    <li class="fade li_block"><img src="images/digital3.png" alt="" /></li>
+                    <li class="fade li_block"><img src="images/digital4.png" alt="" /></li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
@@ -262,12 +272,12 @@
               <li class="li_madre">
                 <div class="left noticia_left"></div>
                 <ul class="noticia_right right globos_guia">
-                  <li><img src="images/guia1.png" alt=""></li>
-                  <li><img src="images/guia2.png" alt=""></li>
-                  <li><img src="images/guia3.png" alt=""></li>
+                  <li class="downAlpha"><img src="images/guia1.png" alt=""></li>
+                  <li class="downAlpha"><img src="images/guia2.png" alt=""></li>
+                  <li class="downAlpha"><img src="images/guia3.png" alt=""></li>
                 </ul>
               </li>
-              <li class="li_madre">
+              <li class="li_madre fade">
                 <div class="left noticia_left guia_titulo"><p class="italic celeste fs18">Es tiempo para la reinvención, el mejor cuidado personal está aquí.</p></div>
                 <ul class="noticia_right cont_guia">
                   <li>
@@ -290,7 +300,7 @@
                   <li class="cont_sombra_big"><img src="images/sombra_big.png" alt=""></li>
                 </ul>
               </li>
-              <li class="li_madre">
+              <li class="li_madre fade">
                 <div class="left noticia_left guia_titulo"><p class="italic celeste fs18">Prueba una solución especializada e innovadora</p></div>
                 <ul class="noticia_right cont_guia">
                   <li>
@@ -313,7 +323,7 @@
                   <li class="cont_sombra_big"><img src="images/sombra_big.png" alt=""></li>
                 </ul>
               </li>
-              <li class="li_madre">
+              <li class="li_madre fade">
                 <div class="left noticia_left guia_titulo"><p class="italic celeste fs18">Sé una embajadora de la Reinvención</p></div>
                 <ul class="noticia_right cont_guia">
                   <li>
@@ -348,7 +358,7 @@
 
       <div class="slide contenedor_interior bg_simple" id="Paquete-de-activacion8">
         <div class="header"><img src="images/logo_poise.png" alt=""></div>
-        <div class="cont_left">
+        <div class="">
           <div class="cabecera cabecera_mm">
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
@@ -357,8 +367,8 @@
             <h1 class="celeste">Guía de inversión en medios</h1>
           </div>
           <div>
-            <h1 class="left titulo_materiales titulo_guia italic">Guía de TV</h1>
-            <div class="tabla_tv">
+            <h2 class="left titulo_materiales titulo_guia italic fade">Guía de TV</h2>
+            <div class="tabla_tv fade">
               <img src="images/tabla_tv.png" alt="">
             </div>
           </div>
@@ -379,42 +389,42 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_big">
-            <div class="left cont_imgpa">
+            <div class="left cont_imgpa fade">
               <img src="images/img_pa.png" alt="">
             </div>
             <div class="cont_pa">
               <ul>
                 <li class="pa_li1">
-                  <img src="images/pa1.png" alt="">
-                  <div class="h4p">
+                  <img src="images/pa1.png" alt="" class="fade">
+                  <div class="h4p fade">
                     <h4 class="celeste italic">Conecta</h4>
                     <p>Proyecta la imagen feliz y segura de una mujer en esta etapa de su vida</p>
                   </div>
                 </li>
                 <li class="pa_li2">
-                  <img src="images/pa2.png" alt="">
-                  <div class="h4p">
+                  <img src="images/pa2.png" alt="" class="fade">
+                  <div class="h4p fade">
                     <h4 class="celeste italic">Captura</h4>
                     <p>Invita a las mujeres a que se reinventen usando poise</p>
                   </div>
                 </li>
                 <li class="pa_li3">
-                  <img src="images/pa3.png" alt="">
-                  <div class="h4p">
+                  <img src="images/pa3.png" alt="" class="fade">
+                  <div class="h4p fade">
                     <h4 class="celeste italic">Clarifica</h4>
                     <p>Explica con un mensaje emocional la reinvención en el cuidado femenino. Ahora tiene una solución especialmente diseñada para ella.</p>
                   </div>
                 </li>
                 <li class="pa_li4">
-                  <img src="images/pa4.png" alt="">
-                  <div class="h4p">
+                  <img src="images/pa4.png" alt="" class="fade">
+                  <div class="h4p fade">
                     <h4 class="celeste italic">Convence</h4>
                     <p>Soporta el beneficio del producto, explicando el RTB</p>
                   </div>
                 </li>
                 <li class="pa_li5">
-                  <img src="images/pa5.png" alt="">
-                  <div class="h4p">
+                  <img src="images/pa5.png" alt="" class="fade">
+                  <div class="h4p fade">
                     <h4 class="celeste italic">Construye</h4>
                     <p>Construye el posicionamiento de poise como una megamarcha ofreciendo 3 plataformas de producto</p>
                   </div>
@@ -438,24 +448,24 @@
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
-          <div class="cont_titulo">
+          <div class="cont_titulo fade">
             <h3 class="celeste">Guía de materiales de activación</h3>
           </div>
           <div class="cont_big2">
             <div class="left cont_titulo_left">
-              <h1 class="celeste italic">Distribución de los gráficos</h1>
+              <h2 class="celeste italic fade">Distribución de los gráficos</h2>
             </div>
-            <div class="left cont_imgpa">
+            <div class="left cont_imgpa fade">
               <img src="images/img_pa2.png" alt="">
             </div>
             <div class="cont_pa">
               <ul>
-                <li class="pa_li1">Logotipo</li>
-                <li class="pa_li2">Tipografía</li>
-                <li class="pa_li3">Zona de innovación</li>
-                <li class="pa_li4">Color secundario</li>
-                <li class="pa_li5">Elementos de marca</li>
-                <li class="pa_li6">Color principal</li>
+                <li class="pa_li1 fade">Logotipo</li>
+                <li class="pa_li2 fade">Tipografía</li>
+                <li class="pa_li3 fade">Zona de innovación</li>
+                <li class="pa_li4 fade">Color secundario</li>
+                <li class="pa_li5 fade">Elementos de marca</li>
+                <li class="pa_li6 fade">Color principal</li>
               </ul>
             </div>
           </div>
@@ -476,14 +486,14 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_titulo">
-            <h3 class="celeste">Guía de materiales de activación</h3>
+            <h3 class="celeste fade">Guía de materiales de activación</h3>
           </div>
           <div class="cont_big2">
-            <div class="left cont_titulo_left">
-              <h1 class="celeste italic">Distribución</h1>
+            <div class="left cont_titulo_left fade">
+              <h2 class="celeste italic">Distribución</h2>
               <p class="fs18">de los elementos de Poise</p>
             </div>
-            <div class="left cont_imgpa img_distribucion">
+            <div class="left cont_imgpa img_distribucion fade">
               <img src="images/img_distribucion.png" alt="">
             </div>
           </div>
@@ -504,14 +514,14 @@
             <h1>Paquete de activación</h1>
           </div>
           <div class="cont_titulo">
-            <h3 class="celeste">Guía de materiales de activación</h3>
+            <h3 class="celeste fade">Guía de materiales de activación</h3>
           </div>
           <div class="cont_big2">
-            <div class="left cont_titulo_left">
-              <h1 class="celeste italic">Distribución</h1>
+            <div class="left cont_titulo_left fade">
+              <h2 class="celeste italic">Distribución</h2>
               <p class="fs18">de los elementos de Poise</p>
             </div>
-            <div class="left cont_imgpa">
+            <div class="left cont_imgpa fade">
               <img src="images/img_distribucion2.png" alt="">
             </div>
           </div>
@@ -531,15 +541,15 @@
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
-          <div class="cont_titulo">
+          <div class="cont_titulo fade">
             <h3 class="celeste">Guía de materiales de activación</h3>
           </div>
           <div class="cont_big2">
-            <div class="left cont_titulo_left">
-              <h1 class="celeste italic">Distribución</h1>
+            <div class="left cont_titulo_left fade">
+              <h2 class="celeste italic">Distribución</h2>
               <p class="fs18">de los elementos de Poise</p>
             </div>
-            <div class="left cont_imgpa">
+            <div class="left cont_imgpa fade">
               <img src="images/img_distribucion3.png" alt="">
             </div>
           </div>
@@ -559,15 +569,15 @@
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
-          <div class="cont_titulo">
+          <div class="cont_titulo fade">
             <h3 class="celeste">Guía de materiales de activación</h3>
           </div>
           <div class="cont_big2">
-            <div class="left cont_titulo_left">
-              <h1 class="celeste italic">Distribución</h1>
+            <div class="left cont_titulo_left fade">
+              <h2 class="celeste italic">Distribución</h2>
               <p class="fs18">de los elementos de Poise</p>
             </div>
-            <div class="left cont_imgpa">
+            <div class="left cont_imgpa fade">
               <img src="images/img_distribucion4.png" alt="">
             </div>
           </div>
@@ -587,20 +597,20 @@
             <h4 class="celeste">Ejecución</h4>
             <h1>Paquete de activación</h1>
           </div>
-          <div class="cont_titulo">
+          <div class="cont_titulo fade">
             <h2 class="celeste">Elementos de la marca</h2>
           </div>
           <div class="cont_elementos">
             <ul class="left elementros_left">
-            <li><p class="pelemento left">Cortinilla de inicio del TVC</p><img src="images/img_elemento1.png" alt="" /></li>
-            <li><p class="pelemento left">Audiologo de cierre del TVC</p><img src="images/img_elemento2.png" alt="" /></li>
-            <li><p class="pelemento left">Recomendación medica</p><img src="images/img_elemento3.png" alt="" /></li>
-          </ul>
-          <ul class="elementros_right hidden">
-            <li><img src="images/img_elemento4.png" alt="" class="left" /><p class="hidden">Claim institucional</p></li>
-            <li><img src="images/img_elemento5.png" alt="" class="left" /><p class="hidden">Logo</p></li>
-            <li><img src="images/img_elemento6.png" alt="" class="left" /><p class="hidden">Plataforma de colores</p></li>
-          </ul>
+              <li><p class="pelemento left fade">Cortinilla de inicio del TVC</p><img src="images/img_elemento1.png" alt="" class="fade" /></li>
+              <li><p class="pelemento left fade">Audiologo de cierre del TVC</p><img src="images/img_elemento2.png" alt="" class="fade" /></li>
+              <li><p class="pelemento left fade">Recomendación medica</p><img src="images/img_elemento3.png" alt="" class="fade" /></li>
+            </ul>
+            <ul class="elementros_right hidden">
+              <li><img src="images/img_elemento4.png" alt="" class="left fade" /><p class="hidden fade">Claim institucional</p></li>
+              <li><img src="images/img_elemento5.png" alt="" class="left fade" /><p class="hidden fade">Logo</p></li>
+              <li><img src="images/img_elemento6.png" alt="" class="left fade" /><p class="hidden fade">Plataforma de colores</p></li>
+            </ul>
           </div>
         </div>
         <div class="footer">
@@ -618,7 +628,7 @@
             <h4 class="rosado">Ejecución</h4>
             <h1>Disponibilidad de claims por innovación</h1>
           </div>
-          <div class="cont_claims">
+          <div class="cont_claims fade">
             <div class="fila">
               <p>Debemos ser muy cuidadosos con el uso de claims en empaques, porque cualquier reto que salga de la competencia, puede causar una recogida de producto, lo que implica un alto costo para la compañía.<br/>En otros medios podemos ser más arriesgados con el uso de los claims, porque podemos reaccionar fácilmente a un bajo costo.<br/>Para la innovación de Poise 2014, podemos comunicar los siguientes claims:</p>
             </div>
@@ -637,10 +647,10 @@
               </ul>
             </div>
           </div>
-          <img src="images/img_claim1.png" alt="" class="img_claims" />
+          <img src="images/img_claim1.png" alt="" class="img_claims fade" />
         </div>
         
-        <p class="pfooter">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
+        <p class="pfooter scale">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
         <div class="footer">
           <ul class="nav_footer">
             <li><a href="index.html" class="btn_inicio"></a></li>
@@ -656,7 +666,7 @@
             <h4 class="rosado">Ejecución</h4>
             <h1>Disponibilidad de claims por innovación</h1>
           </div>
-          <div class="cont_claims cont_claims2">
+          <div class="cont_claims cont_claims2 fade">
             <div class="fila">
               <p class="celeste spanh3">Sábila:<p>
               <p><span class="bold">Insight:</span> La piel de nuestra zona íntima es muy delicada y sin un cuidado apropiado puede irritarse fácilmente. El continuo contacto de la orina con la piel es uno de los factores más frecuentes de la irritación de la piel en esta etapa.</p>
@@ -673,10 +683,10 @@
               </ul>
             </div>
           </div>
-          <img src="images/img_claim2.png" alt="" class="img_claims" />
+          <img src="images/img_claim2.png" alt="" class="img_claims fade" />
         </div>
         
-        <p class="pfooter">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
+        <p class="pfooter fade">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
         <div class="footer">
           <ul class="nav_footer">
             <li><a href="index.html" class="btn_inicio"></a></li>
@@ -692,7 +702,7 @@
             <h4 class="rosado">Ejecución</h4>
             <h1>Disponibilidad de claims por innovación</h1>
           </div>
-          <div class="cont_claims cont_claims3">
+          <div class="cont_claims cont_claims3 fade">
             <div class="fila">
               <p class="celeste spanh3">Sophie &#38; Chloe:<p>
               <p><span class="bold">Insight:</span> Conforme pasa la edad, la piel de todo el cuerpo se vuelve más sensible más aún en la delicada piel de tu zona íntima por eso es importante usar un jabón que te haga sentir limpia y fresca sin dañar tu piel.</p>
@@ -724,11 +734,11 @@
             </div>
           </div>
           <ul>
-            <li><img src="images/img_claim3.png" alt="" class="img_claims" /></li>
-            <li><img src="images/img_claim4.png" alt="" class="img_claims" /></li>
+            <li class="fade"><img src="images/img_claim3.png" alt="" class="img_claims" /></li>
+            <li class="fade"><img src="images/img_claim4.png" alt="" class="img_claims" /></li>
           </ul>
         </div>
-        <p class="pfooter">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
+        <p class="pfooter fade">Nota: esta es una guía que les da LAO, pero toda comunicación debe ser aprobada localmente por el equipo legal.</p>
         <div class="footer">
           <ul class="nav_footer">
             <li><a href="index.html" class="btn_inicio"></a></li>
@@ -738,7 +748,7 @@
       </div><!-- FIN SECTION 18 -->
 
       <div class="slide contenedor_interior bg14" id="Fin">
-        <div class="cont_fin">
+        <div class="cont_fin fade">
           <img src="images/img_fin.png" alt="" class="absolute img_fin" />
         </div>
         <div class="footer">
@@ -752,10 +762,10 @@
   	</div><!-- FIN CONTENEDOR -->
 
     <script>
-      /*$(function() {
+      $(function() {
         $.deck('.slide');
         $.deck('disableScale');
-      });*/
+      });
     </script>
   </body>
 </html>

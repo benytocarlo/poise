@@ -782,6 +782,7 @@ p{
 	left: 280px;
 	position: absolute;
 	text-align: center;
+	top: 0;
 	width: 215px;
 }
 
@@ -1051,18 +1052,27 @@ p{
 
 .estrategia_digital li{
 	clear: both;
-	margin: 0 0 20px 40px;
+	margin: 0 0 20px 130px;
+	overflow: hidden;
+}
+
+.estrategia_brand{
+	width: 950px;
+}
+
+.estrategia_brand li{
+	margin: 0 0 20px 80px;
 }
 
 .estrategia_digital li img{
-	float: none;
+	float: left;
 }
 
 .titulo_estrategia{
 	float: left;
 	padding: 12px 10px 12px 0;
 	text-align: right;
-	width: 190px;
+	width: 124px;
 }
 
 .titulo_estrategia h2{
@@ -1078,9 +1088,8 @@ p{
 	padding-left: 20px;
 }
 
-.cont_brand{
-	text-align: center;
-	width: 120px;
+.cont_brand img{
+	margin-left: 37px;
 }
 
 .text_center{
@@ -1112,7 +1121,7 @@ p{
 }
 
 .web_indicador{
-	float: left;
+	left: 130px;
 }
 
 .web_indicador li{
@@ -1136,6 +1145,7 @@ p{
 .estrategia_digital.canal_digital li{
 	font-size: 11px;
 	line-height: 15px;
+	margin-left: 40px;
 }
 
 .estrategia_digital.canal_digital li img{
@@ -1272,8 +1282,9 @@ p{
 }
 
 .noticia_right li{
-	display: inline-block;
+	float: left;
 	margin: 0 10px;
+	width: 230px;
 }
 
 .noticia_right h5{
@@ -1317,6 +1328,7 @@ p{
 }
 
 .titulo_productos{
+	position: absolute !important;
 	right: 10px;
 	top: 20px;
 }
@@ -1348,6 +1360,7 @@ p{
 
 .des_anatomia{
 	margin: 10px 0 0 100px;
+	overflow: hidden;
 }
 
 .des_anatomia li{
@@ -1489,6 +1502,10 @@ p{
 	margin-bottom: 19px;
 }
 
+.cont_digital{
+	width: 930px;
+}
+
 .fs18{
 	font-size: 18px;
 	line-height: 22px;
@@ -1509,11 +1526,11 @@ p{
 }
 
 .globos_guia{
-    margin: 0 120px 24px 0;
+	margin: 0 110px 24px 0;
 }
 
 .globos_guia li{
-	margin: 0 40px;
+	margin: 0 18px;
 }
 
 .cont_big_guia{
@@ -1528,7 +1545,7 @@ p{
 .titulo_guia{
 	color: #225270;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	margin: 210px 40px 0 0;
+	margin: 140px 40px 0 0;
 	width: 100px;
 }
 
@@ -1617,12 +1634,14 @@ p{
 	width: 1000px;
 }
 
-.cont_elementos img{
+/*.cont_elementos img{
 	display: block;
-}
+}*/
 
 .cont_elementos li{
 	clear: both;
+	margin-bottom: 10px;
+	overflow: hidden;
 }
 
 .elementros_left{
@@ -1702,4 +1721,48 @@ p{
 .img_fin{
 	right: 170px;
 	top: 220px;
+}
+
+#bar-1, #bar-2, #bar-3, #bar-4, #bar-5, #bar-6, #bar-7, #bar-8, #bar-9{	
+	top: 0;
+	height: 15px;
+	float: left;
+}
+
+#bar-1, #bar-2, #bar-3{
+	background: #941694;
+}
+
+#bar-4, #bar-5, #bar-6, #bar-7, #bar-8{
+	background: #641B58;
+}
+
+#bar-9{
+	background: #926692;
+}
+
+.influentials{
+	padding-top: 25px;
+}
+
+.titulo_brand{
+	width: 200px;
+}
+
+.titulo_brand img{
+	padding-top: 8px;
+}
+
+.wrap_bar{
+	height: 24px;
+}
+
+h1, 
+.cabecera h4{
+	left: -800px;
+	position: relative;
+}
+
+.li_block{
+	float: none !important;
 }
