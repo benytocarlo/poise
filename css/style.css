@@ -910,7 +910,7 @@ p{
 }
 
 .cont_ganar .cont_left{
-	width: 625px;
+	width: 630px;
 }
 
 .cont_ganar .bullet{
@@ -1718,11 +1718,6 @@ p{
 	margin: 0 0 20px 14px;
 }
 
-.img_fin{
-	right: 170px;
-	top: 220px;
-}
-
 #bar-1, #bar-2, #bar-3, #bar-4, #bar-5, #bar-6, #bar-7, #bar-8, #bar-9{	
 	top: 0;
 	height: 15px;
@@ -1755,6 +1750,20 @@ p{
 
 .wrap_bar{
 	height: 24px;
+}
+
+.titulo_dig{
+	padding: 180px 40px 0 0;
+}
+
+.bg14{
+	position: relative;
+}
+
+.cont_fin{
+	position: absolute;
+	right: 170px;
+	top: 220px;
 }
 
 h1, 
