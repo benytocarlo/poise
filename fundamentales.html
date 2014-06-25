@@ -9,37 +9,35 @@
   	<title></title>
     <meta name="viewport" content="width=1024, user-scalable=no">
 
-    <!--CSS-->
-  	<link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen" href="deck/core/deck.core.css">
-    <link rel="stylesheet" media="screen" href="deck/extensions/goto/deck.goto.css">
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <!--link rel="stylesheet" media="screen" href="deck/extensions/goto/deck.goto.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/menu/deck.menu.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/navigation/deck.navigation.css">
     <link rel="stylesheet" media="screen" href="deck/extensions/status/deck.status.css">
-    <link rel="stylesheet" media="screen" href="deck/extensions/scale/deck.scale.css">
+    <link rel="stylesheet" media="screen" href="deck/extensions/scale/deck.scale.css"-->
+
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <!--link rel="stylesheet" media="screen" href="deck/themes/style/web-2.0.css"-->
+
     <!-- Transition theme. More available in /themes/transition/ or create your own. -->
     <link rel="stylesheet" media="screen" href="deck/themes/transition/horizontal-slide.css">
+
     <!-- Basic black and white print styles -->
     <link rel="stylesheet" media="print" href="deck/core/print.css">
 
-    <!--JS-->
-    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Required Modernizr file -->
     <script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
-    <!-- Deck Core and extensions -->
-    <script src="deck/core/deck.core.js"></script>
-    <script src="deck/extensions/menu/deck.menu.js"></script>
-    <script src="deck/extensions/goto/deck.goto.js"></script>
-    <script src="deck/extensions/status/deck.status.js"></script>
-    <script src="deck/extensions/navigation/deck.navigation.js"></script>
-    <script src="deck/extensions/scale/deck.scale.js"></script>
-    <script src="js/script.js"></script>
   </head>
 
   <body>
   	<div class="contenedor deck-container fundamentales" id="Fundamentales">
-      <div class="slide contenedor_interior bg_fundamentales1" id="Estrategia-de-Marca">
-        <div class="header"><img src="images/logo_poise.png" alt="" /></div>
+      <section class="slide contenedor_interior bg_fundamentales1" id="Estrategia-de-Marca">
+        <div class="header"><img src="images/logo_poise.png" alt="" class="" /></div>
         <div class="cont_left">
           <div class="cabecera">
             <h4 class="morado">Fundamentales</h4>
@@ -63,9 +61,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 1 -->
+      </section><!-- FIN SECTION 1 -->
 
-      <div class="slide contenedor_interior bg_fundamentales2" id="Perfil-de-la-marca">
+      <section class="slide contenedor_interior bg_fundamentales2" id="Perfil-de-la-marca">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_left">
           <div class="cabecera">
@@ -107,9 +105,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 2 -->
+      </section><!-- FIN SECTION 2 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Posicionamiento-local-de-la-marca">
+      <section class="slide contenedor_interior bg_simple" id="Posicionamiento-local-de-la-marca">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -156,9 +154,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 3 -->
+      </section><!-- FIN SECTION 3 -->
 
-      <div class="slide contenedor_interior bg_fundamentales4" id="Historia-de-la-marca">
+      <section class="slide contenedor_interior bg_fundamentales4" id="Historia-de-la-marca">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_left">
           <div class="cabecera">
@@ -179,9 +177,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 4 -->
+      </section><!-- FIN SECTION 4 -->
 
-      <div class="slide contenedor_interior bg_fundamentales5" id="Historia-de-la-marca2">
+      <section class="slide contenedor_interior bg_fundamentales5" id="Historia-de-la-marca2">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_left">
           <div class="cabecera">
@@ -204,9 +202,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 5 -->
+      </section><!-- FIN SECTION 5 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Perfil-de-la-tarea">
+      <section class="slide contenedor_interior bg_simple" id="Perfil-de-la-tarea">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -231,9 +229,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 6 -->
+      </section><!-- FIN SECTION 6 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Desafio-de-Marketing">
+      <section class="slide contenedor_interior bg_simple" id="Desafio-de-Marketing">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -268,9 +266,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 7 -->
+      </section><!-- FIN SECTION 7 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_margen">
@@ -293,9 +291,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 8 -->
+      </section><!-- FIN SECTION 8 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual2">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual2">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_margen">
@@ -328,9 +326,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 9 -->
+      </section><!-- FIN SECTION 9 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual3">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual3">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_margen">
@@ -366,9 +364,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 10 -->
+      </section><!-- FIN SECTION 10 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual4">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual4">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -403,9 +401,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 11 -->
+      </section><!-- FIN SECTION 11 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual5">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual5">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_margen">
@@ -438,9 +436,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 12 -->
+      </section><!-- FIN SECTION 12 -->
 
-      <div class="slide contenedor_interior bg_fundamentales6" id="Directrices-del-Equity-visual6">
+      <section class="slide contenedor_interior bg_fundamentales6" id="Directrices-del-Equity-visual6">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_left">
           <div class="cabecera">
@@ -480,9 +478,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 13 -->
+      </section><!-- FIN SECTION 13 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual7">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual7">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -502,9 +500,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 14 -->
+      </section><!-- FIN SECTION 14 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual8">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual8">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -530,9 +528,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 15 -->
+      </section><!-- FIN SECTION 15 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual9">
+      <section class="slide contenedor_interior bg_simple" id="Directrices-del-Equity-visual9">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -576,9 +574,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 16 -->
+      </section><!-- FIN SECTION 16 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -641,9 +639,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 17 -->
+      </section><!-- FIN SECTION 17 -->
       
-      <div class="slide contenedor_interior bg10" id="Estrategia-de-Distribucion2">
+      <section class="slide contenedor_interior bg10" id="Estrategia-de-Distribucion2">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -687,9 +685,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 18 -->
+      </section><!-- FIN SECTION 18 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion3">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion3">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -751,9 +749,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 19 -->
+      </section><!-- FIN SECTION 19 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion4">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion4">
         <div class="header"><img src="images/logo_poise.png" alt=""></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -774,9 +772,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 20 -->
+      </section><!-- FIN SECTION 20 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion5">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Distribucion5">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -793,9 +791,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 20 -->
+      </section><!-- FIN SECTION 20 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -821,9 +819,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 21 -->
+      </section><!-- FIN SECTION 21 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios-Inco">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios-Inco">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -847,9 +845,9 @@
             <li class="fade"><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 22 -->
+      </section><!-- FIN SECTION 22 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios-Inco2">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-de-Precios-Inco2">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -873,9 +871,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 23 -->
+      </section><!-- FIN SECTION 23 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-Digital">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-Digital">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera">
@@ -926,9 +924,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 24 -->
+      </section><!-- FIN SECTION 24 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-Digital2">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-Digital2">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_mm">
@@ -963,9 +961,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 25 -->
+      </section><!-- FIN SECTION 25 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-Digital3">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-Digital3">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_mm">
@@ -1016,9 +1014,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 26 -->
+      </section><!-- FIN SECTION 26 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-Digital4">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-Digital4">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_mm">
@@ -1089,9 +1087,9 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 27 -->
+      </section><!-- FIN SECTION 27 -->
 
-      <div class="slide contenedor_interior bg_simple" id="Estrategia-Digital5">
+      <section class="slide contenedor_interior bg_simple" id="Estrategia-Digital5">
         <div class="header"><img src="images/logo_poise.png" alt="" /></div>
         <div class="cont_center">
           <div class="cabecera cabecera_mm">
@@ -1111,9 +1109,22 @@
             <li><a href="indice.html" class="btn_indice"></a></li>
           </ul>
         </div>
-      </div><!-- FIN SECTION 27 -->
+      </section><!-- FIN SECTION 27 -->
 
   	</div><!-- FIN CONTENEDOR -->
+    
+    <!--JS-->
+    <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+    <!-- Deck Core and extensions -->
+    <script src="deck/core/deck.core.js"></script>
+    <script src="deck/extensions/menu/deck.menu.js"></script>
+    <script src="deck/extensions/goto/deck.goto.js"></script>
+    <script src="deck/extensions/status/deck.status.js"></script>
+    <script src="deck/extensions/navigation/deck.navigation.js"></script>
+    <script src="deck/extensions/scale/deck.scale.js"></script>
+    <script src="js/script.js"></script>
 
     <script>
       $(function() {
