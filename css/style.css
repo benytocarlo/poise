@@ -387,8 +387,9 @@ a{
 
 .deck-slide-scaler{
 	height: 670px;
+	margin: 0 auto;
 	overflow: hidden;
-	position: relative;
+	width: 1080px;
 }
 
 .cont_titulo{
